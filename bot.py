@@ -5,15 +5,14 @@ import re
 from PIL import Image
 from PIL import ImageFont
 from PIL import ImageDraw
-import base64
-from io import BytesIO
+from auth import info
 
 
-auth = tweepy.OAuthHandler('vF9I1Rnnu97hreQ0c5Sy93OyZ',
-                           'uxRgJmGin3GhHiSQGc2OjvW2NvSTKCtSVnJDBflIWLlFMoh0Ib'
+auth = tweepy.OAuthHandler(info.consumer_key,
+                           info.consumer_secret
                            )
-auth.set_access_token('1040048344792530954-hqr9PjcKzbofDjScvlPLRSPSCqDE77'
-                      , 'md6jlC46Bj8YrZiIYVLaIIUGpt27TsOUeWd6qE6PLydu1')
+auth.set_access_token(info.access_token
+                      , info.access_token_secret)
 api = tweepy.API(auth)
 
 
