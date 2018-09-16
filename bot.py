@@ -15,7 +15,7 @@ auth.set_access_token(info.access_token
                       , info.access_token_secret)
 api = tweepy.API(auth)
 
-MY_TWITTER_ID = "@MPBotBR"
+MY_TWITTER_ID = ''
 
 def createImage(txt):
 
