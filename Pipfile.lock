@@ -1,0 +1,24 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "d7e8aa314d9e214b72c330eaf75c35151894fe66af71dac6274acd1e48c2a09f"
+        },
+        "pipfile-spec": 6,
+        "requires": {
+            "python_version": "3.7"
+        },
+        "sources": [
+            {
+                "name": "pypi",
+                "url": "https://pypi.org/simple",
+                "verify_ssl": true
+            }
+        ]
+    },
+    "default": {
+        "tweepy": {
+            "path": "./tweepy"
+        }
+    },
+    "develop": {}
+}
