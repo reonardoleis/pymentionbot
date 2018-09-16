@@ -15,6 +15,7 @@ auth.set_access_token(info.access_token
                       , info.access_token_secret)
 api = tweepy.API(auth)
 
+MY_TWITTER_ID = "@MPBotBR"
 
 def createImage(txt):
 
@@ -41,7 +42,7 @@ def createImage(txt):
 
 class MyStreamListener(tweepy.StreamListener):
         def on_status(self, status):
-                createImage(status.text[8:])
+                createImage(status.text[len(MY_TWITTER_ID)+1:])
                 api.update_with_media('output.jpg' ,'@'+status.user.screen_name)
 
 myStreamListener = MyStreamListener()
