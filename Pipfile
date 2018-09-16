@@ -5,6 +5,7 @@ name = "pypi"
 
 [packages]
 tweepy = {path = "./tweepy"}
+six = "*"
 
 [dev-packages]
 
