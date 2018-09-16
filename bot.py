@@ -47,6 +47,6 @@ class MyStreamListener(tweepy.StreamListener):
 
 myStreamListener = MyStreamListener()
 myStream = tweepy.Stream(auth = api.auth, listener=myStreamListener)
-myStream.filter(track=['@MPBotBR'])
+myStream.filter(track=[MY_TWITTER_ID])
 
-			
+            
