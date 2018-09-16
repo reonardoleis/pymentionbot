@@ -1,5 +1,5 @@
 # pymentionbot
-A simple Python script that mentions with an image an user that mentions another user(in the most common case, the bot itself)
+A simple Python script that mentions with an image any user that mentions the bot's username.
 
 # Usage
 1. Put your Twitter tokens in auth.py file, one in each variable.
