@@ -3,7 +3,7 @@ A simple Python script that mentions with an image any user that mentions the bo
 
 # Usage
 1. Put your Twitter tokens in auth.py file, one in each variable.
-2. In bot.py, change MY_TWITTER_NAME to your Twitter username, including the @ at the start of it.
+2. In bot.py, change MY_TWITTER_NAME's value to your Twitter username, including the @ at the start of it.
 3. Run bot via console by typing "python bot.py"
 
 # Additional info
