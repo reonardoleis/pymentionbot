@@ -1,4 +1,4 @@
-# pymentionbot
+# pyMentionBot
 A simple Python script that mentions with an image any user that mentions the bot's username.
 
 # Usage
